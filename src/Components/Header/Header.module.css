@@ -1,0 +1,102 @@
+/* nav 1 */
+
+.firstNav {
+  overflow: hidden;
+  /* position: sticky; */
+  top: 0;
+}
+
+.secondNav {
+  /* position: sticky; */
+  /* overflow: hidden; */
+  top: 0;
+}
+.navTop .items .singleItem:hover {
+  color: rgb(189, 120, 189);
+}
+
+.singleItem {
+  text-decoration-line: none;
+  font-size: 18px;
+
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.singlePage {
+  text-decoration-line: none;
+  font-size: 18px;
+
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.pages .page .singlePage:hover {
+  color: rgb(189, 120, 189);
+}
+.pages .page:hover {
+  color: rgb(189, 120, 189);
+}
+.myContainer {
+  box-shadow: 0px 13px 24px 0px rgba(238, 208, 241, 0.08);
+
+  color: #000000;
+  font-size: 18px;
+}
+.item {
+  display: flex;
+  align-items: center;
+
+  position: relative;
+}
+
+/* .item-bottom{
+        display: flex;
+        align-items: center;
+        
+        position: relative;
+      } */
+.icon {
+  display: flex;
+  font-size: 20px;
+  margin-right: 5px;
+}
+.action {
+  display: flex;
+  align-items: center;
+
+  position: relative;
+}
+
+.items {
+  /* margin-top: 20px;
+        margin-bottom: 20px; */
+  margin-right: 30px;
+}
+
+/* nav 2 */
+.pages {
+  /* background: red; */
+  display: flex;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: wrap;
+  font-size: 18px;
+}
+.page {
+  display: flex;
+  /* background: blue; */
+  align-items: center;
+  box-sizing: border-box;
+
+  margin-right: 30px;
+}
+
+.form .formcontrol {
+  width: 300px;
+}
+.dropdown-toggle::after {
+  content: none;
+  color: red;
+}
+
+/* https://www.youtube.com/watch?v=0SktamdLLAQ */
